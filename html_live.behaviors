@@ -1,0 +1,4 @@
+{:+ {:app [(:lt.objs.plugins/load-js "html live_compiled.js" true)]
+     :editor.html.live [:lt.plugins.html.live/eval-on-change]
+     :editor.html [:lt.plugins.html.live/live-toggle]
+     }}
